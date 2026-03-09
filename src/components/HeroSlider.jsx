@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaWhatsapp } from 'react-icons/fa';
 import Link from 'next/link';
+import ScrollGate from './ScrollGate';
 
 const images = [
   '/images/hero-1.png',
@@ -34,6 +35,7 @@ const HeroSlider = () => {
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
+      <ScrollGate />
       {/* Background Slideshow */}
       <AnimatePresence mode="alternate">
         <motion.div
