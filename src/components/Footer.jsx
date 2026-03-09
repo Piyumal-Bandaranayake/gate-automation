@@ -52,9 +52,9 @@ const Footer = () => {
         <div>
           <h4 className="text-white font-semibold mb-6 text-lg">Support</h4>
           <p className="mb-6">Need quick help? Chat with our experts on WhatsApp.</p>
-          <a 
-            href="https://wa.me/your-number" 
-            target="_blank" 
+          <a
+            href="https://wa.me/your-number"
+            target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 bg-whatsapp text-white px-6 py-3 rounded-xl font-semibold hover:bg-whatsapp/90 transition-all"
           >

@@ -29,12 +29,11 @@ const Navbar = () => {
   ];
 
   return (
-    <nav 
-      className={`fixed left-0 right-0 z-50 transition-all duration-500 ease-in-out ${
-        isScrolled 
-          ? 'top-6 max-w-5xl mx-auto bg-white/90 backdrop-blur-lg shadow-xl rounded-[2.5rem] py-3 px-4 border border-slate-200/50' 
+    <nav
+      className={`fixed left-0 right-0 z-50 transition-all duration-500 ease-in-out ${isScrolled
+          ? 'top-6 max-w-5xl mx-auto bg-white/90 backdrop-blur-lg shadow-xl rounded-[2.5rem] py-3 px-4 border border-slate-200/50'
           : 'top-0 bg-transparent py-6'
-      }`}
+        }`}
     >
       <div className="w-full flex justify-between items-center px-4 md:px-8">
         {/* Logo */}
@@ -52,8 +51,8 @@ const Navbar = () => {
         {/* Desktop Menu - Centered on scroll */}
         <div className={`hidden md:flex items-center space-x-8 ${isScrolled ? 'absolute left-1/2 -translate-x-1/2' : ''}`}>
           {menuItems.map((item) => (
-            <Link 
-              key={item.name} 
+            <Link
+              key={item.name}
               href={item.href}
               className={`font-semibold transition-all hover:text-primary relative group py-2 ${isScrolled ? 'text-slate-600' : 'text-white/90 hover:text-white'}`}
             >
@@ -62,16 +61,15 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-        
+
         {/* WhatsApp Button - Right aligned */}
         <div className="flex-1 flex justify-end">
-          <a 
-            href="https://wa.me/your-number" 
-            target="_blank" 
+          <a
+            href="https://wa.me/your-number"
+            target="_blank"
             rel="noopener noreferrer"
-            className={`hidden md:flex items-center space-x-2 bg-whatsapp text-white font-bold transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-whatsapp/20 ${
-              isScrolled ? 'px-4 py-2 rounded-xl text-sm' : 'px-5 py-2.5 rounded-full'
-            }`}
+            className={`hidden md:flex items-center space-x-2 bg-whatsapp text-white font-bold transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-whatsapp/20 ${isScrolled ? 'px-4 py-2 rounded-xl text-sm' : 'px-5 py-2.5 rounded-full'
+              }`}
           >
             <FaWhatsapp className="text-xl" />
             <span>WhatsApp</span>
@@ -80,7 +78,7 @@ const Navbar = () => {
 
         {/* Mobile Toggle */}
         <div className="md:hidden flex items-center">
-          <button 
+          <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className={`text-2xl ${isScrolled ? 'text-text-primary' : 'text-white'}`}
           >
@@ -100,8 +98,8 @@ const Navbar = () => {
           >
             <div className="flex flex-col p-6 space-y-4">
               {menuItems.map((item) => (
-                <Link 
-                  key={item.name} 
+                <Link
+                  key={item.name}
                   href={item.href}
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="text-text-primary font-medium text-lg hover:text-primary transition-colors"
@@ -109,9 +107,9 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               ))}
-              <a 
-                href="https://wa.me/your-number" 
-                target="_blank" 
+              <a
+                href="https://wa.me/your-number"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center space-x-2 bg-whatsapp text-white px-5 py-3 rounded-xl font-semibold w-full shadow-md"
               >
