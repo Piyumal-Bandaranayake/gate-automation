@@ -13,7 +13,7 @@ const GalleryPreview = () => {
     <section className="relative py-24 bg-slate-50/50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-20">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -21,7 +21,7 @@ const GalleryPreview = () => {
           >
             Project <span className="text-primary italic-none">Showcase</span>
           </motion.h2>
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, width: 0 }}
             whileInView={{ opacity: 1, width: 120 }}
             transition={{ duration: 0.8 }}
@@ -38,12 +38,11 @@ const GalleryPreview = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
               viewport={{ once: true }}
-              className={`group relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white ${
-                index === 1 || index === 4 ? 'row-span-1 lg:h-[500px] lg:-mt-24' : 'row-span-1'
-              }`}
+              className={`group relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white ${index === 1 || index === 4 ? 'row-span-1 lg:h-[500px] lg:-mt-24' : 'row-span-1'
+                }`}
             >
-              <Image 
-                src={image.imageUrl} 
+              <Image
+                src={image.imageUrl}
                 alt={image.title}
                 fill
                 className="object-cover transition-transform duration-1000 group-hover:scale-110"
@@ -54,7 +53,7 @@ const GalleryPreview = () => {
         </div>
 
         <div className="text-center">
-          <Link 
+          <Link
             href="/gallery"
             className="inline-flex items-center justify-center bg-slate-900 text-white font-bold px-10 py-4 rounded-full hover:bg-slate-800 transition-all transform hover:scale-105 active:scale-95 shadow-xl shadow-slate-200"
           >

@@ -43,13 +43,13 @@ const HeroSlider = () => {
           initial={{ scale: 1.2, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0.9, opacity: 0 }}
-          transition={{ 
-            duration: 2, 
+          transition={{
+            duration: 2,
             ease: [0.4, 0, 0.2, 1] // Custom cubic-bezier for smoother feel
           }}
           className="absolute inset-0"
         >
-          <div 
+          <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url(${images[current]})` }}
           />
@@ -77,17 +77,17 @@ const HeroSlider = () => {
           <p className="text-lg md:text-xl text-slate-200 mb-10 max-w-2xl mx-auto leading-relaxed">
             Secure, modern and intelligent gate systems for homes and businesses. Experience the future of entry control.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link 
-                href="/models"
-                className="w-full sm:w-auto bg-primary text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-primary/90 transition-all transform hover:scale-105 active:scale-95 shadow-xl shadow-primary/20"
+            <Link
+              href="/models"
+              className="w-full sm:w-auto bg-primary text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-primary/90 transition-all transform hover:scale-105 active:scale-95 shadow-xl shadow-primary/20"
             >
               Explore Gate Models
             </Link>
-            <a 
-              href="https://wa.me/your-number" 
-              target="_blank" 
+            <a
+              href="https://wa.me/your-number"
+              target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto bg-whatsapp text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-whatsapp/90 transition-all transform hover:scale-105 active:scale-95 shadow-xl shadow-whatsapp/20 flex items-center justify-center gap-2"
             >

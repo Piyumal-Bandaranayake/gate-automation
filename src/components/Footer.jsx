@@ -42,9 +42,8 @@ const Footer = () => {
         <div>
           <h4 className="text-white font-semibold mb-6 text-lg">Contact Details</h4>
           <ul className="space-y-4">
-            <li>123 Automation Way,<br />Tech City, TC 54321</li>
-            <li>Email: info@gateauto.com</li>
-            <li>Phone: +1 (234) 567-890</li>
+            <li>12 Harington road,<br />Feltham, London TW14 9AB</li>
+            <li>Phone: 07300960920</li>
           </ul>
         </div>
 
@@ -52,9 +51,9 @@ const Footer = () => {
         <div>
           <h4 className="text-white font-semibold mb-6 text-lg">Support</h4>
           <p className="mb-6">Need quick help? Chat with our experts on WhatsApp.</p>
-          <a 
-            href="https://wa.me/your-number" 
-            target="_blank" 
+          <a
+            href="https://wa.me/447449891198"
+            target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 bg-whatsapp text-white px-6 py-3 rounded-xl font-semibold hover:bg-whatsapp/90 transition-all"
           >
