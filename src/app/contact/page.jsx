@@ -67,17 +67,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <p className="font-bold text-text-primary text-lg">Call Us</p>
-                      <p className="text-text-muted text-lg">+1 (234) 567-890</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start space-x-5">
-                    <div className="w-12 h-12 bg-primary/10 text-primary rounded-xl flex items-center justify-center shrink-0 text-xl">
-                      <FaEnvelope />
-                    </div>
-                    <div>
-                      <p className="font-bold text-text-primary text-lg">Email Us</p>
-                      <p className="text-text-muted text-lg">info@gateauto.com</p>
+                      <p className="text-text-muted text-lg">07300960920</p>
                     </div>
                   </div>
                   
@@ -87,7 +77,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <p className="font-bold text-text-primary text-lg">Our Office</p>
-                      <p className="text-text-muted text-lg">123 Automation Way, Tech City, TC 54321</p>
+                      <p className="text-text-muted text-lg">12 Harington road faltham London TW14 ab</p>
                     </div>
                   </div>
                 </div>
@@ -102,7 +92,7 @@ const ContactPage = () => {
                   Need a quick response? Message us directly on WhatsApp for real-time assistance.
                 </p>
                 <a 
-                  href="https://wa.me/your-number"
+                  href="https://wa.me/447449891198"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-whatsapp text-white font-bold px-8 py-3 rounded-xl hover:bg-whatsapp/90 transition-all shadow-lg shadow-whatsapp/20"
@@ -120,7 +110,7 @@ const ContactPage = () => {
               className="bg-white p-4 rounded-[2.5rem] shadow-2xl shadow-slate-200 border border-slate-100 overflow-hidden h-[500px] lg:h-auto"
             >
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15843.916960100782!2d79.8612!3d6.9271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259160357827b%3A0x6009ed9e34e569!2sColombo%2007%2C%20Sri%20Lanka!5e0!3m2!1sen!2s!4v1709940000000!5m2!1sen!2s" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.299532585295!2d-0.42835492341258836!3d51.45265417178829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48767396c21e646d%3A0xc3f5ce6368d374a5!2s12%20Harington%20Rd%2C%20Feltham%20TW14%209AB%2C%20UK!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s" 
                 className="w-full h-full rounded-[2rem] grayscale-[20%] contrast-[110%]"
                 style={{ border: 0 }} 
                 allowFullScreen="" 
