@@ -66,15 +66,15 @@ const HeroSlider = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="max-w-4xl"
         >
-          <h1 className="flex flex-col font-display font-black leading-tight mb-8">
-            <span className="text-4xl md:text-7xl lg:text-8xl text-white uppercase tracking-tighter">
+          <h1 className="flex flex-col font-display font-black leading-tight mb-4 md:mb-8">
+            <span className="text-3xl sm:text-4xl md:text-7xl lg:text-8xl text-white uppercase tracking-tighter">
               Smart Gate
             </span>
-            <span className="text-4xl md:text-7xl lg:text-8xl text-primary uppercase tracking-tighter -mt-2">
+            <span className="text-3xl sm:text-4xl md:text-7xl lg:text-8xl text-primary uppercase tracking-tighter -mt-1 md:-mt-2">
               Automation
             </span>
           </h1>
-          <p className="text-lg md:text-xl text-slate-200 mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base md:text-xl text-slate-200 mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed">
             Secure, modern and intelligent gate systems for homes and businesses. Experience the future of entry control.
           </p>
 

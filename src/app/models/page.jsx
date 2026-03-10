@@ -11,39 +11,57 @@ import Footer from '@/components/Footer';
 const models = [
   {
     id: 1,
-    name: 'Elite Sliding Gate',
-    description: 'Ultra-smooth sliding mechanism with silent motor and advanced safety sensors. Perfect for modern residential properties.',
-    image: '/images/models/model-1.png',
+    name: 'Commercial Steel Roller Shutter',
+    description: 'High-performance electric steel shutter designed for warehouses and commercial units. Provides maximum security and durability.',
+    image: '/images/models/commercial-steel-shutter.png',
   },
   {
     id: 2,
-    name: 'Modern Swing Gate',
-    description: 'Elegant double-leaf swing gate with integrated smart home compatibility and high-security locks.',
-    image: '/images/models/model-2.png',
+    name: 'Steel Shopfront Roller Shutter',
+    description: 'Elegant yet robust shopfront protection. Perforated design allows for window shopping while maintaining top-tier security.',
+    image: '/images/models/steel-shopfront-shutter.png',
   },
   {
     id: 3,
-    name: 'Industrial Heavy-Duty',
-    description: 'High-security automated gate designed for commercial and industrial use. Built to withstand heavy traffic.',
-    image: '/images/models/model-3.png',
+    name: 'Single Doorway Roller Shutter',
+    description: 'Compact electric shutter solution for individual doors and small entries. Silent operation with a sleek, minimalist finish.',
+    image: '/images/models/single-doorway-shutter.png',
   },
   {
     id: 4,
-    name: 'Solar-Powered Smart Gate',
-    description: 'Eco-friendly automation powered by high-efficiency solar panels. Works perfectly even in remote locations.',
-    image: '/images/models/model-1.png', // Reusing for now
+    name: 'Industrial Steel Roller Shutter',
+    description: 'Heavy-duty industrial grade shutter for large openings. Built to withstand high-frequency use and extreme conditions.',
+    image: '/images/models/industrial-steel-shutter.png',
   },
   {
     id: 5,
-    name: 'Vertical Pivot Gate',
-    description: 'Space-saving vertical opening gate. Ideal for narrow driveways where sliding or swinging is not possible.',
-    image: '/images/models/model-2.png', // Reusing for now
+    name: 'Aluminium Garage Roller Shutter',
+    description: 'Premium aluminium garage door with automated electric opening. Lightweight, rust-resistant, and perfect for modern homes.',
+    image: '/images/models/aluminium-garage-shutter.png',
   },
   {
     id: 6,
-    name: 'Telescopic Sliding Gate',
-    description: 'Multi-panel sliding design that requires less track space. Innovative solution for limited frontage.',
-    image: '/images/models/model-3.png', // Reusing for now
+    name: 'Steel Roller Shutter (Chain-Operation)',
+    description: 'Traditional manual chain-operated steel shutter. Highly reliable, cost-effective, and ideal for locations without power access.',
+    image: '/images/models/steel-chain-shutter.png',
+  },
+  {
+    id: 7,
+    name: 'Steel Garage Roller Shutter',
+    description: 'Robust steel garage door with electric motor. Combines the strength of steel with the convenience of automation.',
+    image: '/images/models/steel-garage-electric-shutter.png',
+  },
+  {
+    id: 8,
+    name: 'Insulated Aluminium Garage Shutter',
+    description: 'Advanced insulated slats provide thermal efficiency and noise reduction. The ultimate choice for energy-conscious homeowners.',
+    image: '/images/models/insulated-aluminium-shutter.png',
+  },
+  {
+    id: 9,
+    name: 'Chain Link Roller Shutter',
+    description: 'High-visibility electric chain link shutter. Perfect for internal mall units, bars, and areas requiring ventilation and security.',
+    image: '/images/models/chain-link-shutter.png',
   }
 ];
 
