@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaWhatsapp, FaBars, FaTimes } from 'react-icons/fa';
 
@@ -31,20 +32,23 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed left-0 right-0 z-50 transition-all duration-500 ease-in-out ${isScrolled
-          ? 'top-4 max-w-5xl mx-auto bg-white/90 backdrop-blur-lg shadow-xl rounded-[2.5rem] py-2 px-4 border border-slate-200/50'
-          : 'top-0 bg-transparent py-4'
+        ? 'top-4 max-w-5xl mx-auto bg-white/90 backdrop-blur-lg shadow-xl rounded-[2.5rem] py-2 px-4 border border-slate-200/50'
+        : 'top-0 bg-transparent py-4'
         }`}
     >
       <div className="w-full flex justify-between items-center px-4 md:px-8">
         {/* Logo */}
         <div className="flex-1 flex justify-start">
-          <Link href="/" className="flex items-center space-x-3 group">
-            <div className="bg-primary w-10 h-10 rounded-xl flex items-center justify-center text-white font-black text-lg shadow-lg shadow-primary/20 transition-transform group-hover:scale-110">
-              GA
+          <Link href="/" className="flex items-center group">
+            <div className="relative h-14 w-60 md:h-20 md:w-80 transition-transform group-hover:scale-105">
+              <Image
+                src="/images/logo.png"
+                alt="Gate Automation UK"
+                fill
+                className="object-contain object-left"
+                priority
+              />
             </div>
-            <span className={`text-xl font-bold font-display transition-colors hidden sm:inline ${isScrolled ? 'text-slate-900' : 'text-white'}`}>
-              Gate <span className="text-primary">Automation</span>
-            </span>
           </Link>
         </div>
 
