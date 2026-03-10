@@ -5,6 +5,8 @@ import { FaWhatsapp, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
+
+
 const ContactPage = () => {
   return (
     <main className="min-h-screen bg-slate-50">

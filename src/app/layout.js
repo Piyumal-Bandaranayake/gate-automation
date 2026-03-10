@@ -14,8 +14,30 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Gate Automation | Smart & Secure Gate Systems",
-  description: "Secure, modern and intelligent gate systems for homes and businesses.",
+  metadataBase: new URL('https://www.gateautomation.uk'),
+  title: {
+    default: "Gate Automation | Smart & Secure Gate Systems",
+    template: "%s | Gate Automation",
+  },
+  description: "Secure, modern and intelligent gate systems for homes and businesses. High-quality automated gate solutions designed for reliability and security.",
+  keywords: ["gate automation", "electric gates", "smart gates", "automatic gates", "security gates", "roller shutters", "UK"],
+  openGraph: {
+    title: "Gate Automation | Smart & Secure Gate Systems",
+    description: "Secure, modern and intelligent gate systems for homes and businesses in the UK.",
+    url: "https://www.gateautomation.uk",
+    siteName: "Gate Automation",
+    locale: "en_GB",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gate Automation | Smart & Secure Gate Systems",
+    description: "Secure, modern and intelligent gate systems for homes and businesses.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {
