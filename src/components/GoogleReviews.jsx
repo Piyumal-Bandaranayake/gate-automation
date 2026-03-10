@@ -36,13 +36,13 @@ const duplicatedReviews = [...reviews, ...reviews, ...reviews];
 
 const GoogleReviews = () => {
   return (
-    <section id="reviews" className="py-24 bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 mb-16 text-center">
+    <section id="reviews" className="py-16 md:py-24 bg-white overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 mb-10 md:mb-16 text-center">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-4xl font-bold font-display text-text-primary mb-4"
+          className="text-2xl md:text-4xl font-bold font-display text-text-primary mb-4"
         >
           Trusted by Our Customers
         </motion.h2>
@@ -51,20 +51,20 @@ const GoogleReviews = () => {
           whileInView={{ opacity: 1, width: 80 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="h-1.5 bg-primary mx-auto rounded-full"
+          className="h-1 bg-primary mx-auto rounded-full"
         />
       </div>
 
       <div className="relative">
         {/* Continuous scrolling container */}
         <motion.div 
-          className="flex space-x-6 w-max"
+          className="flex space-x-4 md:space-x-6 w-max"
           animate={{ x: [0, -2000] }}
           transition={{
             x: {
               repeat: Infinity,
               repeatType: "loop",
-              duration: 40,
+              duration: 50, // Slightly slower for better readability
               ease: "linear",
             },
           }}
@@ -72,17 +72,17 @@ const GoogleReviews = () => {
           {duplicatedReviews.map((review, index) => (
             <div 
               key={index}
-              className="w-[350px] bg-white p-8 rounded-3xl shadow-lg border border-slate-50 flex flex-col"
+              className="w-[280px] md:w-[350px] bg-white p-6 md:p-8 rounded-[2rem] md:rounded-3xl shadow-lg border border-slate-50 flex flex-col"
             >
-              <div className="flex text-yellow-400 mb-4">
+              <div className="flex text-yellow-400 mb-4 text-sm md:text-base">
                 {[...Array(review.rating)].map((_, i) => (
                   <FaStar key={i} />
                 ))}
               </div>
-              <p className="text-text-primary italic mb-6 flex-grow">"{review.text}"</p>
+              <p className="text-sm md:text-base text-text-primary italic mb-6 flex-grow leading-relaxed">"{review.text}"</p>
               <div>
-                <p className="font-bold text-text-primary">{review.name}</p>
-                <p className="text-xs text-text-muted">Verified Customer</p>
+                <p className="font-bold text-text-primary text-sm md:text-base">{review.name}</p>
+                <p className="text-[10px] md:text-xs text-text-muted">Verified Customer</p>
               </div>
             </div>
           ))}

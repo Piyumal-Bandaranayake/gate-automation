@@ -9,21 +9,21 @@ import { IoClose } from 'react-icons/io5';
 const models = [
   {
     id: 1,
-    name: 'Sliding Gates',
-    description: 'Space-saving and secure, perfect for modern driveways with limited space.',
-    image: '/images/models/model-1.png',
+    name: 'Commercial Roller Shutters',
+    description: 'High-security electric steel shutters designed for modern commercial and industrial units.',
+    image: '/images/models/commercial-steel-shutter.png',
   },
   {
     id: 2,
-    name: 'Swing Gates',
-    description: 'Classic elegance meeting modern automation. Ideal for spacious entrances.',
-    image: '/images/models/model-2.png',
+    name: 'Aluminium Garage Doors',
+    description: 'Premium automated aluminium rollers that combine sleek design with advanced insulation.',
+    image: '/images/models/aluminium-garage-shutter.png',
   },
   {
     id: 3,
-    name: 'Smart Access Gates',
-    description: 'Integrated with AI facial recognition and mobile app control for ultimate security.',
-    image: '/images/models/model-3.png',
+    name: 'Shopfront Security',
+    description: 'Durable and aesthetically pleasing shopfront shutters that protect your business 24/7.',
+    image: '/images/models/steel-shopfront-shutter.png',
   }
 ];
 
