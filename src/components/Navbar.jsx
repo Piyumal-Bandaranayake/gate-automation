@@ -65,7 +65,7 @@ const Navbar = () => {
         {/* WhatsApp Button - Right aligned */}
         <div className="flex-1 flex justify-end">
           <a
-            href="https://wa.me/your-number"
+            href="https://wa.me/447449891198"
             target="_blank"
             rel="noopener noreferrer"
             className={`hidden md:flex items-center space-x-2 bg-whatsapp text-white font-bold transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-whatsapp/20 ${isScrolled ? 'px-4 py-2 rounded-xl text-sm' : 'px-5 py-2.5 rounded-full'
@@ -108,7 +108,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <a
-                href="https://wa.me/your-number"
+                href="https://wa.me/447449891198"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center space-x-2 bg-whatsapp text-white px-5 py-3 rounded-xl font-semibold w-full shadow-md"
