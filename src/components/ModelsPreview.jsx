@@ -103,7 +103,7 @@ Order Details: ${formData.message}`;
                   onClick={() => setSelectedModel(model)}
                   className="flex items-center justify-center space-x-2 bg-[#0f172a] text-white font-bold py-3 rounded-xl hover:bg-[#1e293b] transition-all shadow-md active:scale-95 group"
                 >
-                  <span>Explore Now</span>
+                  <span>Order Now</span>
                   <FaArrowRight className="text-sm transition-transform group-hover:translate-x-1" />
                 </button>
               </div>
