@@ -39,6 +39,7 @@ const Footer = () => {
           <ul className="space-y-4 text-sm md:text-base">
             <li>12 Harington road,<br />Feltham, London TW14 9AB</li>
             <li>Phone: 07300960920</li>
+            <li>Email: gateautomationuk@outlook.com</li>
           </ul>
         </div>
 
