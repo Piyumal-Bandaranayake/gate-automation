@@ -59,7 +59,7 @@ const Footer = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 border-t border-slate-800 mt-20 pt-8 flex flex-col items-center text-sm">
-        <p>&copy; {new Date().getFullYear()} Gate Automation. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Fusion Wave Systems (Pvt) Ltd. All rights reserved.</p>
       </div>
     </footer>
   );
