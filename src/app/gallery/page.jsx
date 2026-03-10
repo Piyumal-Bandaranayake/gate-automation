@@ -6,6 +6,8 @@ import { galleryImages } from '@/data/galleryImages';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
+
+
 const GalleryPage = () => {
   return (
     <main className="min-h-screen bg-slate-50">
