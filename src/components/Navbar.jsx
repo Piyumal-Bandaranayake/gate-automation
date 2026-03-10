@@ -39,16 +39,19 @@ const Navbar = () => {
       <div className="w-full flex justify-between items-center px-4 md:px-8">
         {/* Logo */}
         <div className="flex-1 flex justify-start">
-          <Link href="/" className="flex items-center group">
-            <div className="relative h-14 w-60 md:h-20 md:w-80 transition-transform group-hover:scale-105">
+          <Link href="/" className="flex items-center space-x-3 group">
+            <div className={`relative h-10 w-10 md:h-12 md:w-12 p-1.5 rounded-xl transition-all duration-300 ${isScrolled ? 'bg-slate-100/50' : 'bg-white shadow-lg shadow-white/20'} flex items-center justify-center group-hover:scale-110`}>
               <Image
                 src="/images/logo.png"
                 alt="Gate Automation UK"
                 fill
-                className="object-contain object-left"
+                className="object-contain p-1"
                 priority
               />
             </div>
+            <span className={`text-lg md:text-xl font-bold font-display transition-colors ${isScrolled ? 'text-slate-900' : 'text-white'}`}>
+              Gate <span className="text-primary">Automation</span>
+            </span>
           </Link>
         </div>
 
