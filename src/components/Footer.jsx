@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
@@ -8,13 +9,15 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 text-center sm:text-left">
         {/* Brand */}
         <div className="space-y-6 flex flex-col items-center sm:items-start">
-          <Link href="/" className="flex items-center space-x-3 group">
-            <div className="bg-primary w-10 h-10 rounded-xl flex items-center justify-center text-white font-black text-lg shadow-lg shadow-primary/20 transition-transform group-hover:scale-110">
-              GA
+          <Link href="/" className="flex items-center group">
+            <div className="relative h-20 w-56 md:h-28 md:w-72 transition-transform group-hover:scale-105 brightness-0 invert opacity-90">
+              <Image 
+                src="/images/logo.png" 
+                alt="Gate Automation UK" 
+                fill
+                className="object-contain object-left"
+              />
             </div>
-            <h3 className="text-xl font-bold text-white font-display">
-              Gate <span className="text-primary">Automation</span>
-            </h3>
           </Link>
           <p className="max-w-xs leading-relaxed text-sm md:text-base">
             Leading provider of smart, secure, and intelligent gate automation systems for residential and commercial properties.
